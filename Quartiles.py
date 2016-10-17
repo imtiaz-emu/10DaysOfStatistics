@@ -2,7 +2,7 @@ __author__ = 'Imtiaz'
 
 '''
 problem statement: https://www.hackerrank.com/challenges/s10-quartiles
-solution: Brute Force
+solution: Brute Force, Numpy
 Python Version: 3.5
 '''
 
