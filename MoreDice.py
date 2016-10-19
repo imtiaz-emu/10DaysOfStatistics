@@ -1,3 +1,11 @@
+__author__ = 'Imtiaz'
+
+'''
+problem statement: https://www.hackerrank.com/challenges/s10-mcq-2
+solution: Brute Force
+Python Version: 3.5
+'''
+
 def gcd(a, b):
     while b:
         a, b = b, a%b
