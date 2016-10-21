@@ -1,0 +1,26 @@
+__author__ = 'Imtiaz'
+
+problem statement: https://www.hackerrank.com/challenges/s10-mcq-3
+solution: Brute Force
+
+URN 1 (R - 4, B - 3)
+URN 2 (R - 5, B - 4)
+
+        Probability of Red       | Probability of Black
+        -----------------------------------------------
+URN-1   |        4/7	                3/7
+URN-2   |        5/9	                4/9
+URN-3   |        4/8	                4/8
+
+
+4/7*5/9*1/2 = 20/126 (Red ball from URN-1, URN-2 and Black ball from URN-3)
+4/7*1/2*4/9 = 16/126 (Red ball from URN-1, URN-3 and Black ball from URN-2)
+5/9*1/2*3/7 = 15/126 (Red ball from URN-2, URN-3 and Black ball from URN-1)
+---------------------------------------------------------------------------
+
+2 Red balls and 1 black ball = (Red ball from URN-1, URN-2 and Black ball from URN-3)
+                                + (Red ball from URN-1, URN-3 and Black ball from URN-2)
+                                + (Red ball from URN-2, URN-3 and Black ball from URN-1)
+
+                             = 51/126 = 17/42
+
