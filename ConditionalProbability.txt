@@ -1,0 +1,9 @@
+__author__ = 'Imtiaz'
+
+problem statement: https://www.hackerrank.com/challenges/s10-mcq-4
+solution: Brute Force
+
+
+Read The solution here:
+https://en.m.wikipedia.org/wiki/Boy_or_Girl_paradox
+
