@@ -1,0 +1,8 @@
+__author__ = 'Imtiaz'
+
+problem statement: https://www.hackerrank.com/challenges/s10-mcq-5
+solution: Brute Force
+
+1. Cards contain 4 suits. Each suit consists of 13 cards. So total = 52 cards
+2. First, he draw a card. Then the card reduces to 51. And one of the suit contains 12 cards.
+3. So, probability of both cards being same is 12/51
